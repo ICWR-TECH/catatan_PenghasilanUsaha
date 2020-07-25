@@ -24,7 +24,7 @@ Catatan penghasilan usaha cocok untuk warung,toko,dll | ICWR-TECH
 8. Auto hitung laba
 9. Auto hitung penghasilan
 10. Tambah user
-11. Hapus user
+11. Hapus user,dll
 ```
 
 # -Screenshots
