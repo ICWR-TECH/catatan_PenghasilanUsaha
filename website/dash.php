@@ -448,7 +448,7 @@ $date=date("Y-m-d H:i:s");
           $q_userSiapa=mysqli_query($conn,"SELECT * FROM admin where id='$id'");
           $q_userSiapa_arr=mysqli_fetch_array($q_userSiapa);
           if(mysqli_query($conn,$q_hapusUserID)){
-            echo "<div class='alert alert-success'>Sukses hapus user ".$q_userSiapa_arr['username']."</div>
+            echo "<div class='alert alert-success'>Sukses hapus user ".htmlentities($q_userSiapa_arr['username'])."</div>
             <script>
             setTimeout(
                   function(){
