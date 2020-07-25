@@ -42,8 +42,15 @@ Catatan penghasilan usaha cocok untuk warung,toko,dll | ICWR-TECH
 # -Demo
 http://tes-bro.000webhostapp.com
 <br>
-username=billy
+username = billy
 <br>
-password=billy
+password = billy
+<br>
+# -Catatan
+```
+Akun login default:
+username: billy
+password: billy
+```
 <br><br>
 Sekian terimakasih:)
