@@ -28,15 +28,15 @@ Catatan penghasilan usaha cocok untuk warung,toko,dll | ICWR-TECH
 ```
 
 # -Screenshots
-<img src="gambar/1.png">
+<img src="1.png">
 <br>
-<img src="gambar/2.png">
+<img src="2.png">
 <br>
-<img src="gambar/3.png">
+<img src="3.png">
 <br>
-<img src="gambar/4.png">
+<img src="4.png">
 <br>
-<img src="gambar/Screenshot from 2020-07-25 11.48.58.png">
+<img src="Screenshot from 2020-07-25 11.48.58.png">
 <br>
 # -Demo
 http://tes-bro.000webhostapp.com
