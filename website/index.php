@@ -27,7 +27,7 @@ include 'config.php';
     <input type="submit" name="submit" value="Submit" class="btn btn-primary">
   </form>
   <?php
-  $username = $_POST['username'];
+  $username = mysqli_real_escape_string($conn, $_POST['username']);
   $password = $_POST['password'];
 
   if ($_POST) {
