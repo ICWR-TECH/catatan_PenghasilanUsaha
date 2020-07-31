@@ -1,14 +1,13 @@
 -- phpMyAdmin SQL Dump
--- version 5.0.1
+-- version 5.0.2
 -- https://www.phpmyadmin.net/
 --
--- Host: localhost
--- Generation Time: Jul 25, 2020 at 06:59 AM
--- Server version: 10.4.11-MariaDB
--- PHP Version: 7.2.27
+-- Host: 127.0.0.1
+-- Generation Time: Jul 31, 2020 at 04:49 PM
+-- Server version: 10.4.13-MariaDB
+-- PHP Version: 7.4.8
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -39,7 +38,7 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`id`, `username`, `password`) VALUES
-(9, 'billy', '89c246298be2b6113fb10ba80f3c6956');
+(10, 'billy', '$2y$10$I5gDDirXsrOVAoWv5vS8EuyORTKkiXPND5TsPOmt/puxOpr5/Pv9q');
 
 -- --------------------------------------------------------
 
@@ -115,7 +114,7 @@ ALTER TABLE `transaksi`
 -- AUTO_INCREMENT for table `admin`
 --
 ALTER TABLE `admin`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 
 --
 -- AUTO_INCREMENT for table `barang`
