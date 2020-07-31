@@ -180,8 +180,8 @@ $date = date("Y-m-d H:i:s");
             ?>
             <tr>
               <td><?php echo $var['nama_barang'] ?></td>
-              <td><?php echo $var['harga_awal'] ?></td>
-              <td><?php echo $var['harga_akhir'] ?></td>
+              <td>Rp <?php echo number_format($var['harga_awal'], 2, ',', '.'); ?></td>
+              <td>Rp <?php echo number_format($var['harga_akhir'], 2, ',', '.') ?></td>
               <td><a href="?menu=edit_barangnya&id=<?php echo $var['id'] ?>" class="btn btn-warning"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M5.433 2.304A4.494 4.494 0 003.5 6c0 1.598.832 3.002 2.09 3.802.518.328.929.923.902 1.64v.008l-.164 3.337a.75.75 0 11-1.498-.073l.163-3.33c.002-.085-.05-.216-.207-.316A5.996 5.996 0 012 6a5.994 5.994 0 012.567-4.92 1.482 1.482 0 011.673-.04c.462.296.76.827.76 1.423v2.82c0 .082.041.16.11.206l.75.51a.25.25 0 00.28 0l.75-.51A.25.25 0 009 5.282V2.463c0-.596.298-1.127.76-1.423a1.482 1.482 0 011.673.04A5.994 5.994 0 0114 6a5.996 5.996 0 01-2.786 5.068c-.157.1-.209.23-.207.315l.163 3.33a.75.75 0 11-1.498.074l-.164-3.345c-.027-.717.384-1.312.902-1.64A4.496 4.496 0 0012.5 6a4.494 4.494 0 00-1.933-3.696c-.024.017-.067.067-.067.16v2.818a1.75 1.75 0 01-.767 1.448l-.75.51a1.75 1.75 0 01-1.966 0l-.75-.51A1.75 1.75 0 015.5 5.282V2.463c0-.092-.043-.142-.067-.159zm.01-.005z"></path></svg>Edit</a> <a href="?menu=delete_barang&id=<?php echo $var['id']; ?>" class="btn btn-danger"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M6.5 1.75a.25.25 0 01.25-.25h2.5a.25.25 0 01.25.25V3h-3V1.75zm4.5 0V3h2.25a.75.75 0 010 1.5H2.75a.75.75 0 010-1.5H5V1.75C5 .784 5.784 0 6.75 0h2.5C10.216 0 11 .784 11 1.75zM4.496 6.675a.75.75 0 10-1.492.15l.66 6.6A1.75 1.75 0 005.405 15h5.19c.9 0 1.652-.681 1.741-1.576l.66-6.6a.75.75 0 00-1.492-.149l-.66 6.6a.25.25 0 01-.249.225h-5.19a.25.25 0 01-.249-.225l-.66-6.6z"></path></svg>Delete</a></td>
             </tr>
             <?php
@@ -331,8 +331,8 @@ $date = date("Y-m-d H:i:s");
             <tr>
               <td><?php echo $exp[0]; ?></td>
               <td><?php echo $var['jumlah'] ?></td>
-              <td><?php echo $var['total_hargaSemua']; ?></td>
-              <td><?php echo $var['total_hargaLaba']; ?></td>
+              <td>Rp <?php echo number_format($var['total_hargaSemua'], 2, ',', '.'); ?></td>
+              <td>Rp <?php echo number_format($var['total_hargaLaba'], 0, ',', '.'); ?></td>
               <td><button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modalHapusDataID" data-href="?menu=lihat_transaksi&hapus=hapus_id&id=<?php echo $var['id'] ?>"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M6.5 1.75a.25.25 0 01.25-.25h2.5a.25.25 0 01.25.25V3h-3V1.75zm4.5 0V3h2.25a.75.75 0 010 1.5H2.75a.75.75 0 010-1.5H5V1.75C5 .784 5.784 0 6.75 0h2.5C10.216 0 11 .784 11 1.75zM4.496 6.675a.75.75 0 10-1.492.15l.66 6.6A1.75 1.75 0 005.405 15h5.19c.9 0 1.652-.681 1.741-1.576l.66-6.6a.75.75 0 00-1.492-.149l-.66 6.6a.25.25 0 01-.249.225h-5.19a.25.25 0 01-.249-.225l-.66-6.6z"></path></svg></button></td>
             </tr>
             <?php
