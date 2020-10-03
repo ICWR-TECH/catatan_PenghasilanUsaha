@@ -30,7 +30,8 @@ include 'config.php';
          echo "Anda bukan admin!";
        }else {
          $_SESSION['status']=$user;
-         header("location:dash.php");
+         echo '<meta HTTP-EQUIV="Refresh" Content="0; URL=dash.php">';
+         exit();
        }
      }
       ?>
